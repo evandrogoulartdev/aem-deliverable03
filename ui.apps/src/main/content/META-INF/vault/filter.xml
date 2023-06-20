@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/jump-shop/clientlibs"/>
+    <filter root="/apps/jump-shop/components"/>
+    <filter root="/apps/jump-shop/i18n"/>
+</workspaceFilter>
