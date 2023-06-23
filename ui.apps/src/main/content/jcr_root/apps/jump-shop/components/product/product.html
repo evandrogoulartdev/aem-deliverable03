@@ -1,10 +1,12 @@
 <div>
-  <h3>Component ProductModel</h3>
+  <h2>Product's Info</h2>
 
   <sly data-sly-use.model="com.evandrogoulart.aem.core.models.ProductModel"/>
 
   <ul>
-    <li>Text: ${model.text}</li>
-    <li>Image: <img src="${model.fileReference}" alt=""></li>
+    <li>Name: ${model.name}</li>
+    <img src="${model.fileReference}" alt="Product's Image">
+    <li>Category: ${model.category}</li>
+    <li>Price: ${model.price}</li>
   </ul>
 </div>
