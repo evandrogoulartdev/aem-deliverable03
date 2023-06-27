@@ -1,0 +1,8 @@
+{
+  "product": {
+    "name": "name",
+    "category": "category",
+    "price": "price",
+    "fileReference": "fileReference"
+  }
+}

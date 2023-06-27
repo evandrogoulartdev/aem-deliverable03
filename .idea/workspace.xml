@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9930fe11-fb93-4521-b641-857f66ed542b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/evandrogoulart/aem/core/models/ProductModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models/product/ProductModelTest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/models/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/models/ProductModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components/product/_cq_dialog/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components/product/_cq_dialog/.content.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components/product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components/product/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,16 +34,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/wbj-000181-evandro/aemProjects/jump-shop/ui.apps/src/main/content/jcr_root/apps/jump-shop/components&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/wbj-000181-evandro/aemProjects/jump-shop/core/src/test/resources/com/evandrogoulart/aem/core/models",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models" />
+      <recent name="$PROJECT_DIR$/core/src/test/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models/product" />
+      <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem" />
       <recent name="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.evandrogoulart.aem.core.models" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
