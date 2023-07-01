@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9930fe11-fb93-4521-b641-857f66ed542b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/evandrogoulart/aem/core/models/ProductModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models/product/ProductModelTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
