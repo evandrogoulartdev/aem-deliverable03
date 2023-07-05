@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9930fe11-fb93-4521-b641-857f66ed542b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/configs/ProductSwapConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/schedulers/ProductSwapScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -76,5 +79,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".content.xml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
