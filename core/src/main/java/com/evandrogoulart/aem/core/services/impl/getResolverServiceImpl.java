@@ -24,7 +24,7 @@ public class getResolverServiceImpl implements getResolverService {
             resolver = resolverFactory.getServiceResourceResolver(param);
         } catch (LoginException e) {
             log.error("Error loging in resolverFactory and retrieving a service resource resolver: ", e.getMessage());
-            e.getMessage();
+            throw new RuntimeException("Failed to login in the resolverFactory, make sure the resolver service is mapped to a user with the correct permissions.", e);
         }
         return resolver;
     }

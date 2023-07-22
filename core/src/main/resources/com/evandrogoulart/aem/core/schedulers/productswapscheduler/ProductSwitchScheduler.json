@@ -1,0 +1,38 @@
+{
+  "productMotherboard": {
+    "name": "MSI Z490 TOMAHAWK",
+    "category": "motherboard",
+    "price": "BRL 1799.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  },
+  "productRamMemory": {
+    "name": "XPG RAM 32GB DDR5",
+    "category": "ram-memory",
+    "price": "BRL 899.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  },
+  "productProcessor": {
+    "name": "Intel Core i9 12900K",
+    "category": "processor",
+    "price": "BRL 2599.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  },
+  "productGraphicsCard": {
+    "name": "NVIDIA RTX 3070",
+    "category": "graphics-card",
+    "price": "BRL 3299.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  },
+  "productSolidStateDrive": {
+    "name": "Samsung 970 EVO",
+    "category": "solid-state-drive",
+    "price": "BRL 1699.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  },
+  "productPowerSupplyUnit": {
+    "name": "CORSAIR 1690W",
+    "category": "power-supply-unit",
+    "price": "BRL 1199.99",
+    "fileReference": "/content/dam/training-sling/asset.jpg"
+  }
+}

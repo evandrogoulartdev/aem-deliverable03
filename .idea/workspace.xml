@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9930fe11-fb93-4521-b641-857f66ed542b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/configs/ProductSwapConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/schedulers/ProductSwapScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/servlets/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/servlets/ProductServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,6 +65,10 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.evandrogoulart.aem.core.models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.evandrogoulart.aem.core.entities" />
+      <recent name="com.evandrogoulart.aem.core.dtos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
