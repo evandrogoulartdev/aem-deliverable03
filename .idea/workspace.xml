@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9930fe11-fb93-4521-b641-857f66ed542b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/schedulers/ProductSwapScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/schedulers/ProductSwapScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/getResolverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/ResourceResolverService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/getResolverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/services/impl/ResourceResolverServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/servlets/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/servlets/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/evandrogoulart/aem/core/servlets/SimpleServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/evandrogoulart/aem/core/schedulers/productswapscheduler/ProductSwitchScheduler.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/com/evandrogoulart/aem/core/schedulers/productswapscheduler/ProductSwitchScheduler.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/evandrogoulart/aem/core/servlets/SimpleServletTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/wbj-000181-evandro/aemProjects/jump-shop/core/src/test/resources/com/evandrogoulart/aem/core/models",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/wbj-000181-evandro/aemProjects/jump-shop/core/src/main/resources/core/schedulers/productswapscheduler&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/resources/core/schedulers/productswapscheduler" />
+      <recent name="$PROJECT_DIR$/core/src/main/resources" />
       <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models" />
       <recent name="$PROJECT_DIR$/core/src/test/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/resources/com/evandrogoulart/aem" />
       <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem/core/models/product" />
       <recent name="$PROJECT_DIR$/core/src/test/resources/com/evandrogoulart/aem" />
       <recent name="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/jump-shop/components" />

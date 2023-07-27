@@ -29,7 +29,7 @@ import java.nio.charset.StandardCharsets;
 @SlingServletPaths("/bin/products/secret")
 public class ProductServlet extends SlingAllMethodsServlet {
     @Reference
-    ProductService productService;
+    private ProductService productService;
     @Override
     protected void doPost(final @NonNull SlingHttpServletRequest request,
                           final @NonNull SlingHttpServletResponse response) throws ServletException, IOException {
