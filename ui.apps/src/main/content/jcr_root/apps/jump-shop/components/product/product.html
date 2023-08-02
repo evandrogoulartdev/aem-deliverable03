@@ -1,11 +1,10 @@
 <div>
-  <h2>Product's Info</h2>
 
   <sly data-sly-use.model="com.evandrogoulart.aem.core.models.ProductModel"/>
 
   <ul>
-    <li>Name: ${model.name}</li>
     <img src="${model.fileReference}" alt="Product's Image">
+    <li>Name: ${model.name}</li>
     <li>Category: ${model.category}</li>
     <li>Price: ${model.price}</li>
   </ul>

@@ -24,9 +24,9 @@ import java.nio.charset.StandardCharsets;
 @Component(service = Servlet.class)
 @SlingServletResourceTypes(resourceTypes = "jump-shop/components/page",
         methods = HttpConstants.METHOD_POST,
-        selectors = "secret",
-        extensions = "json")
-@SlingServletPaths("/bin/products/secret")
+        selectors = "product",
+        extensions = "html")
+@SlingServletPaths("/bin/products/secrets/save")
 public class ProductServlet extends SlingAllMethodsServlet {
     @Reference
     private ProductService productService;
@@ -41,7 +41,7 @@ public class ProductServlet extends SlingAllMethodsServlet {
                 productService.saveProduct(productDTO);
             } catch (IOException e) {
                 log.error("ProductServlet has encountered an I/O exception while persisting a new productDTO: {}", e.getMessage());
-                response.sendError(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error saving the request data. Verify if the request payload matches our product schema.");
+                response.sendError(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error saving the request payload. Verify if the request payload matches our productDTO schema.");
                 throw e;
             }
 
@@ -50,7 +50,7 @@ public class ProductServlet extends SlingAllMethodsServlet {
             response.setCharacterEncoding(StandardCharsets.UTF_8.name());
             response.getWriter().write("Your favorite product has been secretly selected for a special sale on our main page! Enjoy!");
         } else {
-            response.sendError(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error saving the request data. Verify if the request payload isn't empty.");
+            response.sendError(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error saving the request payload. Verify if the request payload isn't empty.");
         }
 
     }

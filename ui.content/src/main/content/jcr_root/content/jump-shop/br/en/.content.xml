@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-08-08T01:02:35.099-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/jump-shop/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="jump-shop/components/page"
+        navTitle="Webjump Jump Shop"
+        pageTitle="Webjump Jump Shop"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="jump-shop/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="jump-shop/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="jump-shop/components/container"
+                    layout="responsiveGrid">
+                    <title
+                        jcr:lastModified="{Date}2023-08-08T00:26:18.847-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Webjump Jump Shop"
+                        sling:resourceType="core/wcm/components/title/v2/title"
+                        type="h1">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </title>
+                    <separator
+                        jcr:lastModified="{Date}2023-08-08T00:32:33.029-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
+                    <product
+                        jcr:lastModified="{Date}2023-08-08T01:02:35.096-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="jump-shop/components/product"
+                        category="test"
+                        name="test"
+                        price="test">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </product>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

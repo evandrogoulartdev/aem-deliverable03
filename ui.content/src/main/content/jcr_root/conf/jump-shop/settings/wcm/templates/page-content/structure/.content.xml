@@ -10,28 +10,16 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="jump-shop/components/container"
             layout="responsiveGrid">
-            <experiencefragment-header
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="jump-shop/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/jump-shop/us/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="jump-shop/components/container"
                 layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="jump-shop/components/title"
-                    editable="{Boolean}true"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="jump-shop/components/container"
                     editable="{Boolean}true"
                     layout="responsiveGrid"/>
             </container>
-            <experiencefragment-footer
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="jump-shop/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/jump-shop/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

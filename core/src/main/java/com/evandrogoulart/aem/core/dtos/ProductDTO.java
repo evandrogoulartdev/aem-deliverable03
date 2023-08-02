@@ -1,6 +1,7 @@
 package com.evandrogoulart.aem.core.dtos;
 
 import lombok.*;
+import org.apache.sling.api.resource.ModifiableValueMap;
 
 @Getter
 @Setter

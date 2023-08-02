@@ -2,6 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/jump-shop" mode="merge"/>
     <filter root="/content/jump-shop" mode="merge"/>
-    <filter root="/content/dam/jump-shop/asset.jpg" mode="merge"/>
+    <filter root="/content/dam/jump-shop" mode="merge"/>
     <filter root="/content/experience-fragments/jump-shop" mode="merge"/>
 </workspaceFilter>

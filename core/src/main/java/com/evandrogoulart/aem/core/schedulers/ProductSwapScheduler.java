@@ -2,11 +2,9 @@ package com.evandrogoulart.aem.core.schedulers;
 
 import com.evandrogoulart.aem.core.configs.ProductSwapConfiguration;
 import com.evandrogoulart.aem.core.dtos.ProductDTO;
-import com.evandrogoulart.aem.core.entities.Product;
 import com.evandrogoulart.aem.core.services.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.sling.api.resource.PersistenceException;
-import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.commons.scheduler.ScheduleOptions;
 import org.apache.sling.commons.scheduler.Scheduler;
 import org.osgi.framework.Constants;
@@ -42,12 +40,10 @@ public class ProductSwapScheduler implements Runnable {
         log.debug("{}: initializing properties for scheduler", TAG);
         this.schedulerName = configuration.schedulerName();
         log.debug("{}: name of the scheduler: {}", TAG, schedulerName);
-
         productList = Arrays.asList(
-                new ProductDTO("MSI Z490 TOMAHAWK", "Motherboard", "BRL 1399.99", "/content/dam/training-sling/asset.jpg"),
-                new ProductDTO("Intel i9 12900K", "Processor", "BRL 2599.99", "/content/dam/training-sling/asset.jpg"),
-                new ProductDTO("NVIDIA RTX 3070", "Graphics Card", "BRL 2000.99", "/content/dam/training-sling/asset.jpg"));
-
+                new ProductDTO("MSI Z490 TOMAHAWK", "Motherboard", "R$ 1399,99", "/content/dam/jump-shop/motherboard_small.png"),
+                new ProductDTO("Intel i9 12900K", "Processor", "R$ 2599,99", "/content/dam/jump-shop/cpu_small.png"),
+                new ProductDTO("NVIDIA RTX 3070", "Graphics Card", "R$ 2000,99", "/content/dam/jump-shop/gpu_small.png"));
     }
 
     @Modified
@@ -95,16 +91,11 @@ public class ProductSwapScheduler implements Runnable {
     @Override
     public void run() {
         log.info("{}: Running the scheduled task.", TAG);
-        //Resource test = resourceResolver.getResource("com/evandrogoulart/aem/core/schedulers/productswapscheduler/ProductSwitchScheduler.json");
-        log.info("{}: Read resource from json...", TAG);
-        //ProductDTO productDTO = test.adaptTo(ProductDTO.class);
-        log.info("{}: Adapted the resource...", TAG);
-        //log.info("{}: Printing the DTO...", TAG, productDTO.toString());*/
+
         if (productList.isEmpty()) {
             log.error("{}: No productDTOs were found in the list", TAG);
             throw new RuntimeException("No products to swap, consider adding some or deactivating the scheduler.");
         }
-
         if (currentListIndex < productList.size()) {
             try {
                 saveProduct(productList.get(currentListIndex));
@@ -121,25 +112,8 @@ public class ProductSwapScheduler implements Runnable {
                 throw new RuntimeException("Failed to save the product, consider checking if the product list has correct data that matches productDTO ", e);
             }
         }
-
         currentListIndex++;
-        /*try {
-            productService.saveProduct();
-        } catch (PersistenceException e) {
-            throw new RuntimeException(e);
-        }*/
-        /*try {
-            productService.saveProduct(new ProductDTO(
-                    "Intel i9",
-                    "Processor",
-                    "BRL 1999.99",
-                    "/content/dam/jump-shop/asset.jpg"));
-        } catch (PersistenceException e) {
-            log.error("{}: Encountered an persistence exception while saving a new product node: {}", schedulerName, e.getMessage());
-            throw new RuntimeException(e.getMessage());
-        }*/
+
         log.info("{}: Completed the scheduled task successfully.", TAG);
-
     }
-
 }
