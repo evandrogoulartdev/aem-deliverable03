@@ -8,7 +8,7 @@ Also, the payload of requests should be in JSON format and follow the Product Mo
 
 ## Required setup process
 
-- A system user with Modify/Create/Read ACL permissions must be mapped to the project's ResourceResolverService. OSGi Configurations such as Apache Sling Service User Mapper Service should be configured for this purpose.
+- A system user with Modify/Create/Read ACL permissions must be mapped to the project's ResourceResolverService. Simply go to the Apache Sling Service User Mapper Service, set up "jump-shop.core:ResourceResolverService=(systemuser)" and this requirement should be completed.
 
 ## Model properties and how to use them
 
