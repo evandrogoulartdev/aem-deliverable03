@@ -10,14 +10,14 @@ Also, the payload of requests should be in JSON format and follow the Product Mo
 
 - A system user with Modify/Create/Read ACL permissions must be mapped to the project's ResourceResolverService. In your AEM Author instance, simply go to the Apache Sling Service User Mapper Service in the OSGi Console, set up "jump-shop.core:ResourceResolverService=systemuser" as Service Mappings and you're good to go. Keep in mind that "systemuser" must be created and have the proper ACL permissions.
 
-## Model properties and how to use them
+## Model properties 
 
-The properties of the Product Model, which should also be the same for the JSON payload of requests, are as follows:
+The properties of the Product Model, which should match the JSON payload of requests, are as follows:
 
-* String name: Name of the product, no restrictions/validations. (TODO: Implement constraints e validators)
-* String category: Category which the product belongs to, no restrictions/validations. (TODO: Implement constraints e validators)
-* String price: Price of the product, no restrictions/validations. (TODO: Implement constraints e validators)
-* String fileReference: Path of the image stored in the DAM repository to be rendered as part of the Product Model, no restrictions/validations. (TODO: Implement constraints e validators)
+* String name: Name of the product (TODO: Implement constraints e validators)
+* String category: Category which the product belongs to  (TODO: Implement constraints e validators)
+* String price: Price of the product (TODO: Implement constraints e validators)
+* String fileReference: Path of the product image stored in the DAM repository, no restrictions/validations. (TODO: Implement constraints e validators)
 
 ## How to build and deploy the project
 
