@@ -1,4 +1,4 @@
-# AEM Backend Track - Webjump Jump Shop Project
+# AEM Track - Backend - Webjump Jump Shop Project
 
 This project is a deliverable that aims to implement a digital store, delivering a couple features required by the AEM Backend Track.
 One of them, the Scheduler, is an OSGi component that can be activated in order to change the Product Model node every 30 seconds.
