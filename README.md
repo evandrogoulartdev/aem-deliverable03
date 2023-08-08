@@ -12,10 +12,10 @@ This project is a deliverable that aims to implement a digital store for tech co
 
 The properties of the Product Model, which should match the JSON payload of requests, are as follows:
 
-* String name: Name of the product. (TODO: Implement constraints e validators)
-* String category: Category which the product belongs to. (TODO: Implement constraints e validators)
-* String price: Price of the product. (TODO: Implement constraints e validators)
-* String fileReference: Path of the product image stored in the DAM repository. (TODO: Implement constraints e validators)
+* String name: Name of the product. (TODO: Implement constraints and validators)
+* String category: Category which the product belongs to. (TODO: Implement constraints and validators)
+* String price: Price of the product. (TODO: Implement constraints and validators)
+* String fileReference: Path of the product image stored in the DAM repository. (TODO: Implement constraints and validators)
 
 ## How to build and deploy the project
 
