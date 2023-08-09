@@ -16,9 +16,9 @@ The properties of the Product Model, which should match the JSON payload of requ
 * String category: Category which the product belongs to. (TODO: Implement constraints and validators)
 * String price: Price of the product. (TODO: Implement constraints and validators)
 * String fileReference: Path of the product image stored in the DAM repository. This property shouldn't be used by clients, but for this project, just add one of the following 3 paths (images):
-/content/dam/jump-shop/gpu_small.png
-/content/dam/jump-shop/cpu_small.png
-/content/dam/jump-shop/motherboard_small.png 
+* /content/dam/jump-shop/gpu_small.png
+* /content/dam/jump-shop/cpu_small.png
+* /content/dam/jump-shop/motherboard_small.png 
 
 ## How to build and deploy the project
 
