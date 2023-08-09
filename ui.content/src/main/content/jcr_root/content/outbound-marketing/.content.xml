@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    jcr:primaryType="sling:Folder"
-    jcr:title="Outbound Marketing">
-    <jcr:content
-        cq:allowedTemplates="[/conf/global/email-templates/.*,/conf/core-email-components-examples/settings/wcm/templates/.*]"
-        jcr:primaryType="nt:unstructured"/>
-</jcr:root>
